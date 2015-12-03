@@ -10,6 +10,7 @@ sensor_msgs/Image image_evidence
 #### String that indicates which object has been detected/recognized ####
 string object_id
 
+
 # object_id should be one of the following
 # 'An Object'  : object was detected but not identified
 # 'Red Cube'
@@ -22,5 +23,6 @@ string object_id
 # 'Blue Triangle'
 # 'Purple Cross'
 # 'Patric' 
+
 
 # More info: https://anywiki.csc.kth.se/DD2425/doku.php?id=ras2014:cv_evidence
